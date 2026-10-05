@@ -1,0 +1,16 @@
+name: GemPlugin
+version: 1.0
+main: com.example.gem.GemPlugin
+api-version: "1.21"
+commands:
+  element:
+    description: Choose an element (gives you its focus item)
+    usage: /element <id|none> [player]
+    permission: gemplugin.admin
+  nullifier:
+    description: Give an Element Nullifier
+    usage: /nullifier [player]
+    permission: gemplugin.admin
+permissions:
+  gemplugin.admin:
+    default: op

@@ -1,0 +1,4 @@
+# Optional: auto-send your resource pack when players join.
+resource-pack:
+  url: ""
+  sha1: ""
